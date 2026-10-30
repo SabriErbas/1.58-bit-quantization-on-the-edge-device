@@ -1,0 +1,23 @@
+tarih                 : 2026-10-30T15:42:37
+makine                : cachyos-x8664
+işletim sistemi       : Linux-6.18.55-2-cachyos-lts-x86_64-with-glibc2.44
+cpu                   : 12th Gen Intel(R) Core(TM) i5-12500H (16 iş parçacığı)
+ram                   : 15.3 GiB
+python                : 3.12.16
+torch                 : 2.15.0+cu132
+torch cuda/hip        : 13.2
+gpu                   : NVIDIA GeForce RTX 3050 Laptop GPU, 3.7 GiB, sm_86
+bf16 desteği          : True
+gpu matmul testi      : tamam (maks. fark 1.8e-04)
+numpy                 : 2.2.6
+sentencepiece         : 0.2.2
+transformers          : 4.57.6
+safetensors           : 0.8.0
+datasets              : 5.0.1
+yaml                  : 6.0.3
+pandas                : 3.1.0
+matplotlib            : 3.11.2
+gguf-py               : /home/bertan/1.58-bit-quantization-on-the-edge-device/third_party/llama.cpp/gguf-py/gguf (TQ1_0/TQ2_0: var)
+llama.cpp             : b12004 (3c809f4)
+llama-quantize        : TQ1_0/TQ2_0: var
+derleyici             : c++ (GCC) 16.2.1 20260810
