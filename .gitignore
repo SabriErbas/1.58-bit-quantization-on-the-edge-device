@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- proje
+third_party/
+data/
+runs/
+checkpoints/
+*.gguf
+*.safetensors
+*.pt

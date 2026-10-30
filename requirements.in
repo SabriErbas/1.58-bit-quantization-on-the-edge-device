@@ -1,0 +1,17 @@
+# Üst düzey Python bağımlılıkları (torch hariç: setup.sh GPU'ya göre ayrı kurar).
+# Sabitlenmiş tam liste requirements.txt'tedir; bu dosyayı değiştirdikten sonra:
+#   uv pip compile requirements.in --python-version 3.12 -o requirements.txt
+
+# llama.cpp convert_hf_to_gguf.py ile uyumlu sürümler (third_party/llama.cpp/requirements/)
+numpy~=2.2.6
+sentencepiece>=0.1.98,<0.3.0
+protobuf>=4.21.0,<5.0.0
+transformers==4.57.6
+
+# eğitim, veri ve analiz
+safetensors
+datasets
+pyyaml
+tqdm
+pandas
+matplotlib
